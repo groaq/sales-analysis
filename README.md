@@ -15,6 +15,16 @@ This project explores a sales dataset from a Superstore to uncover key business 
 The sample sales dataset used in this project was sourced from the [Superstore Sales Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 It contains transactional sales records including order details, product information, and customer data.
 
+## Project Structure
+
+- `analysis.py` — Python functions for data processing and analysis.
+- `notebooks/` — Jupyter notebooks showcasing the analyses and visualizations.
+- `data/` — Folder containing dataset used in the project 
+- `requirements.txt` — List of Python packages needed to run the project.
+- `README.md` — This file, providing an overview of the project.
+
+Make sure to run the notebooks from the root directory so the imports and data paths work correctly.
+
 ## How to Use
 
 1. Clone the repository:
