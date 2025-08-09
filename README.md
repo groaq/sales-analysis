@@ -1,4 +1,4 @@
-# Sales Analysis Project
+# Retail Sales Analysis: Insights from Superstore Data
 
 This project explores a sales dataset from a Superstore to uncover key business insights through data cleaning, exploratory data analysis, and visualization.
 
@@ -18,12 +18,10 @@ It contains transactional sales records including order details, product informa
 ## Project Structure
 
 - `analysis.py` — Python functions for data processing and analysis.
-- `notebooks/` — Jupyter notebooks showcasing the analyses and visualizations.
+- `sales_analysis.ipynb` — Jupyter notebook showcasing the analyses and visualizations.
 - `data/` — Folder containing dataset used in the project 
 - `requirements.txt` — List of Python packages needed to run the project.
 - `README.md` — This file, providing an overview of the project.
-
-Make sure to run the notebooks from the root directory so the imports and data paths work correctly.
 
 ## How to Use
 
@@ -33,12 +31,18 @@ Make sure to run the notebooks from the root directory so the imports and data p
 2. Navigate to the project folder:
    ```bash
    cd sales-analysis
-3. Install the required packages:
+3. Create a Virtual Environment
+   ```bash
+   python -m venv venv
+4. Activate the Virtual Environment
+   ```bash
+   venv\Scripts\activate
+5. Install the required packages:
    ```bash
    pip install -r requirements.txt
-4. Open the Jupyter notebook and run the analysis:
+6. Open the Jupyter notebook and run the analysis:
    ```bash
-   jupyter notebook sales_analysis.ipynb
+   jupyter notebook
 
 ## Requirements
 - Python 3.x
